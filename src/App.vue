@@ -36,13 +36,12 @@
     <VoteHistoryModal />
     <GameStateModal />
     <Gradients />
-    <span id="version">v{{ version }}</span>
+    <span id="version">v{{ appVersion }} | clocktower.cc</span>
   </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
-import { version } from "../package.json";
 import TownSquare from "./components/TownSquare";
 import TownInfo from "./components/TownInfo";
 import Menu from "./components/Menu";
@@ -56,6 +55,8 @@ import NightOrderModal from "./components/modals/NightOrderModal";
 import FabledModal from "@/components/modals/FabledModal";
 import VoteHistoryModal from "@/components/modals/VoteHistoryModal";
 import GameStateModal from "@/components/modals/GameStateModal";
+
+const appVersion = require('../package.json').version;
 
 export default {
   components: {
@@ -79,7 +80,7 @@ export default {
   },
   data() {
     return {
-      version
+      appVersion
     };
   },
   methods: {

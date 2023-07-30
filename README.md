@@ -1,5 +1,13 @@
 # Blood on the Clocktower Grimoire & Town Square
 
+Forked from [bra1n/townsquare](https://github.com/bra1n/townsquare) for <clocktower.cc> now the the upstream is no longer maintained due to work on the official app.
+
+Will receive patches for new characters, using non-TPI icons to be compliant with licensing. Considering broader improvements to UI and homebrew script JSONs in the future, though no immediate plans other than adding new character releases.
+
+Previous README follows, pending rewrite.
+
+---
+
 > :warning: **This project is no longer actively maintained** and will only receive critical bug fixes. :warning:
 
 ![social](https://user-images.githubusercontent.com/325521/102897760-d1147b00-4468-11eb-9d7b-63a204bc9fc1.png)
@@ -7,7 +15,7 @@
 This is an unofficial online tool to run Blood on the Clocktower games through Discord or other digital means.
 It is supposed to aid storytellers and players by allowing them to quickly set up games, run votes and much more.
 
-[You can try it online!](https://clocktower.online)
+[You can try it online!](https://clocktower.cc/)
 
 If you want to learn more about how to use the app as a player, [JayBotC](https://www.youtube.com/channel/UCNZy-4Rp877XtTHaIZdWYFQ) kindly created two tutorial videos.
 
@@ -103,8 +111,6 @@ For base game characters, it is sufficient to only provide the ID, similar to wh
   _Note_: if you create a custom Fabled character, it will be automatically added to the game when the custom script is loaded
 - **ability**: the displayed ability text of the character
 
-## [Code of Conduct](CODE_OF_CONDUCT.md)
-
 ## [Contributing](CONTRIBUTING.md)
 
 ## Acknowledgements and Copyrights
@@ -117,8 +123,3 @@ For base game characters, it is sufficient to only provide the ID, similar to wh
 * All other images and icons are copyright to their respective owners
 
 This project and its website are provided free of charge and not affiliated with The Pandemonium Institute in any way.
-
-## Donations
-This project will always be available free of charge, since I love building cool things and playing Blood on the Clocktower. If you still want to support me with a donation, you can do that here:
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/bra1n)
