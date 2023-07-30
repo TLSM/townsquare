@@ -60,14 +60,14 @@ for example. The logo will be shown to your players after they have enabled cust
 ### Custom Character Support
 
 In order to add custom characters to your local Grimoire, you need to create a JSON definition for them,
-similar to what is provided in the [`roles.json`](https://github.com/bra1n/townsquare/blob/main/src/roles.json) for the 3 base editions. Here's an example of how such a character
+similar to what is provided in the [`roles.json`](https://github.com/TLSM/townsquare/blob/main/src/roles.json) for the 3 base editions. Here's an example of how such a character
 definition file might be written:
 
 ```json
 [
   {
     "id": "acrobat",
-    "image": "https://github.com/bra1n/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
+    "image": "https://github.com/TLSM/townsquare/blob/main/src/assets/icons/acrobat.png?raw=true",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
