@@ -1836,7 +1836,7 @@
     "otherNightReminder": "The Kazali points to a player. That player dies",
     "reminders": ["Dead"],
     "setup": true,
-    "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
+    "ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]"
   },
   {
     "id": "leviathan",
