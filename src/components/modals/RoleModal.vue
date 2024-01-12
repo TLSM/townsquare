@@ -1,5 +1,9 @@
 <template>
-  <Modal v-if="modals.role && availableRoles.length" @close="close">
+  <Modal
+    class="role"
+    @close="close"
+    v-if="modals.role && availableRoles.length"
+  >
     <h3>
       Choose a new character for
       {{
