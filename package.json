@@ -1,6 +1,6 @@
 {
   "name": "townsquare",
-  "version": "2.19.1",
+  "version": "2.20.0",
   "description": "Blood on the Clocktower Town Square",
   "contributors": [
     "Steffen Baumgart",
@@ -22,7 +22,7 @@
     "sass": "^1.30.0",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.12",
-    "vue-template-compiler": "^2.6.12",
+    "vue-template-compiler": "^2.7.15",
     "vuex": "^3.6.0",
     "ws": "^7.4.6"
   },
