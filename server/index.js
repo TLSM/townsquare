@@ -10,18 +10,20 @@ register.setDefaultLabels({
   app: "clocktower-online"
 });
 
+const PORT = 8081;
 const PING_INTERVAL = 30000; // 30 seconds
 
 const options = {};
 
-if (process.env.NODE_ENV !== "development") {
-  options.cert = fs.readFileSync("cert.pem");
-  options.key = fs.readFileSync("key.pem");
-}
+// Prod running behind Cloudflare
+// if (process.env.NODE_ENV !== "development") {
+//   options.cert = fs.readFileSync("cert.pem");
+//   options.key = fs.readFileSync("key.pem");
+// }
 
 const server = https.createServer(options);
 const wss = new WebSocket.Server({
-  ...(process.env.NODE_ENV === "development" ? { port: 8081 } : { server }),
+  ...(process.env.NODE_ENV === "development" ? { port: PORT } : { server }),
   verifyClient: info =>
     info.origin &&
     !!info.origin.match(
@@ -252,7 +254,7 @@ wss.on("close", function close() {
 // prod mode with stats API
 if (process.env.NODE_ENV !== "development") {
   console.log("server starting");
-  server.listen(8080);
+  server.listen(PORT);
   server.on("request", (req, res) => {
     res.setHeader("Content-Type", register.contentType);
     register.metrics().then(out => res.end(out));
