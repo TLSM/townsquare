@@ -1490,6 +1490,19 @@
     "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
   },
   {
+    "id": "villageidiot",
+    "name": "Village Idiot",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 45.2,
+    "firstNightReminder": "The Village Idiot points to a player; give a thumbs up if that player is good or a thumbs down if that player is evil.",
+    "otherNight": 62.1,
+    "otherNightReminder": "The Village Idiot points to a player; give a thumbs up if that player is good or a thumbs down if that player is evil.",
+    "reminders": ["Drunk"],
+    "setup": true,
+    "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. One of the extras is drunk.]"
+  },
+  {
     "id": "snitch",
     "name": "Snitch",
     "edition": "",
