@@ -119,7 +119,7 @@ export default {
 }
 
 .maximized {
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 1);
   padding: 0;
   border-radius: 0;
   height: 100%;
