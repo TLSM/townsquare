@@ -1503,6 +1503,17 @@
     "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. One of the extras is drunk.]"
   },
   {
+    "id": "banshee",
+    "name": "Banshee",
+    "edition": "",
+    "team": "townsfolk",
+    "otherNight": 42.1,
+    "otherNightReminder": "Announce that the Banshee has died.",
+    "reminders": ["Has Ability"],
+    "setup": false,
+    "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination."
+  },
+  {
     "id": "snitch",
     "name": "Snitch",
     "edition": "",
@@ -1619,6 +1630,16 @@
     "reminders": ["Tea Party Tonight"],
     "setup": false,
     "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
+  },
+  {
+    "id": "ogre",
+    "name": "Ogre",
+    "edition": "",
+    "team": "outsider",
+    "firstNight": 49.1,
+    "firstNightReminder": "The Ogre points to a player (not themselves) and becomes their alignment.",
+    "setup": false,
+    "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned."
   },
   {
     "id": "widow",
