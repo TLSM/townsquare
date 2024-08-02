@@ -1235,7 +1235,7 @@
     "otherNightReminder": "If there are more dead than living, show the King a character token of a living player.",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
+    "ability": "Each night, if the dead equal or outnumber the living, you learn 1 alive character. The Demon knows who you are. "
   },
   {
     "id": "balloonist",
@@ -1251,7 +1251,7 @@
         "Seen Minion",
         "Seen Demon"],
     "setup": true,
-    "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]"
+    "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
   },
   {
     "id": "cultleader",
@@ -1616,7 +1616,7 @@
     "otherNightReminder": "If the Plague Doctor died tonight: the Storyteller gains a not-in-play Minion ability.",
     "reminders": ["Storyteller Ability"],
     "setup": false,
-    "ability": "If you die, the Storyteller gains a not-in-play Minion ability."
+    "ability": "If you die, the Storyteller gains a Minion ability."
   },
   {
     "id": "hatter",
@@ -1787,7 +1787,7 @@
     "otherNightReminder": "Wake the Harpy; they point at one player, then another. Wake the 1st player the Harpy pointed to, show them the 'This character has selected you' card, show them the Harpy token, then point at the 2nd player the Harpy pointed to.",
     "reminders": ["Mad", "2nd"],
     "setup": false,
-    "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or both might die."
+    "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die."
   },
   {
     "id": "summoner",
@@ -1815,7 +1815,7 @@
     "remindersGlobal": ["Is the Demon",
         "Dead"],
     "setup": true,
-    "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night*. [+1 Minion]"
+    "ability": "Each night, Minions choose who babysits Lil' Monsta & “is the Demon”. Each night*, a player might die. [+1 Minion]"
   },
   {
     "id": "lleech",
@@ -1829,7 +1829,7 @@
     "reminders": ["Dead",
         "Poisoned"],
     "setup": false,
-    "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die."
+    "ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead."
   },
   {
     "id": "alhadikhia",
